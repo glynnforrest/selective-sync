@@ -1,0 +1,22 @@
+{
+    "name": "glynnforrest/selective-sync",
+    "description": "Sync part of a directory using various strategies.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Glynn Forrest",
+            "email": "me@glynnforrest.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "~2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "SelectiveSync\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.2"
+    }
+}
