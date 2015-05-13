@@ -17,6 +17,7 @@
         }
     },
     "require-dev": {
-        "phpspec/phpspec": "~2.2"
+        "phpspec/phpspec": "~2.2",
+        "glynnforrest/temping": "0.5.*"
     }
 }
