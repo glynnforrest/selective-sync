@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+include 'vendor/autoload.php';
+
+use SelectiveSync\Application;
+
+$app = new Application('Selective Sync', 0.1);
+$app->run();
